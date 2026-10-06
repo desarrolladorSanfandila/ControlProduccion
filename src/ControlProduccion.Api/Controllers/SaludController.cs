@@ -7,6 +7,6 @@ namespace ControlProduccion.Api.Controllers
     public class SaludController : ControllerBase
     {
         [HttpGet]
-        public IActionResult Get() => Ok(new { estado = "ok" });
+        public IActionResult Get() => Ok(new { estado = "Servicio de api arriba" });
     }
 }
