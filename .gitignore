@@ -1,0 +1,14 @@
+# Visual Studio / .NET
+.vs/
+bin/
+obj/
+*.suo
+*.user
+*.log
+TestResults/
+packages/
+
+# Datos locales
+*.db
+*.sqlite
+appsettings.Local.json
